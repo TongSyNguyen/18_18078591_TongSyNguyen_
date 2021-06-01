@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "694360700686",
+    "project_id": "tongsynguyen-60065",
+    "storage_bucket": "tongsynguyen-60065.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694360700686:android:168dcd3c04a9df94a7095f",
+        "android_client_info": {
+          "package_name": "com.example.a18_18078591_tongsynguyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694360700686-rgls6r847vnatsq65es521kg3uba3kv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_8gcxGw3kOBSEGhO28FU6g--VmcVayng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694360700686-rgls6r847vnatsq65es521kg3uba3kv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

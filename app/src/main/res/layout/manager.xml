@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FACA00"
+    tools:context=".Manager">
+
+    <TextView
+        android:id="@+id/txtManager"
+        android:layout_width="410dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="132dp"
+        android:background="#66FFFBFB"
+        android:text="MANAGER"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="333dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#000000"
+        android:text="show infomation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtManager" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="333dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:text="add employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShow" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="181dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:text="logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

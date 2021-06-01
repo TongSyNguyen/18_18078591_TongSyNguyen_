@@ -41,7 +41,7 @@ public class Manager extends AppCompatActivity {
         });
     }
     private  void show_info(){
-        Intent intent_showinfo = new Intent(Manager.this, Home.class);
+        Intent intent_showinfo = new Intent(Manager.this, MainActivity.class);
         startActivity(intent_showinfo);
     }
     private  void add_emp(){
@@ -49,7 +49,7 @@ public class Manager extends AppCompatActivity {
         startActivity(intent_addemp);
     }
     private  void logout(){
-        Intent intent_logout = new Intent(Manager.this, Login.class);
+        Intent intent_logout = new Intent(Manager.this, MainActivity.class);
         startActivity(intent_logout);
     }
     private void AnhXa(){
